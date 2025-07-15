@@ -1,0 +1,449 @@
+/* 언어설정 */
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+/* 전체설정 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 로고설정 */
+.logo {}
+
+.logo h1 {
+    font-size: 30px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo h1 a {
+    display: block;
+    padding: 5px;
+    color: #83a4a8;
+}
+
+/* 박스2를 바형태로 디자인 */
+.box2 {
+    background-color: #7cbac1;
+}
+
+/* 네비게이션 설정 */
+.menu {}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.menu ul li a:hover {
+    background-color: #75dbe7;
+}
+
+/* 스토리 설정 */
+.story {}
+
+.story h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.story h2 {
+    font-weight: normal;
+    border-left: 10px solid #7cbac1;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+.story p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.story p img {
+    width: 100%;
+    height: auto;
+}
+
+/* 스토리 카테고리 설정 */
+.story-cat {
+    margin-bottom: 20px;
+}
+
+.story-cat ul {
+    display: flex;
+}
+
+.story-cat ul li {}
+
+.story-cat ul li a {
+    font-size: 12px;
+    color: #fff;
+    background-color: #75dbe7;
+    display: block;
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.story-cat ul li a:hover {
+    background-color: #94ecf6;
+}
+
+/* 스토리 작성일*/
+.storyinfo {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.storyinfo time {}
+
+.storyinfo time i {
+    color: #aaa;
+    margin-right: 5px;
+}
+
+
+/* 사이드메뉴 설정 */
+.sidemenu {
+    margin-bottom: 20px;
+}
+
+.sidemenu h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px #ddd dotted;
+}
+
+.sidemenu ul {}
+
+.sidemenu ul li {}
+
+.sidemenu ul li a {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.sidemenu ul li a i {
+    color: #888;
+    margin-right: 5px;
+}
+
+/* 추천기사 설정 */
+.recommend {
+    margin-bottom: 30px;
+}
+
+.recommend h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px #ddd dotted;
+}
+
+.recommend ul {}
+
+.recommend ul li {}
+
+.recommend ul li a {
+    display: block;
+    padding: 0px;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.recommend ul li a img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.recommend ul li a .txt {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+/* 인기기사 설정 */
+.popular {}
+
+.popular h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px #ddd dotted;
+}
+
+.popular ul {}
+
+.popular ul li {}
+
+.popular ul li a {
+    display: flex;
+    padding: 5px;
+    font-size: 14px;
+    color: #2288bb;
+    border-bottom: 1px #ddd dotted;
+}
+
+.popular ul li a img {
+    width: 60px;
+    height: 60px;
+}
+
+.popular ul li a .txt {
+    width: auto;
+    padding-left: 15px;
+}
+
+.popular ul li a .txt span {
+    display: block;
+    color: #666;
+    font-size: 12px;
+}
+
+
+/* 박스5 위 테두리 삽입 설정 */
+.box5 {
+    border-top: 1px solid #ddd;
+}
+
+
+/* 푸터설정 */
+.copyright {}
+
+.copyright p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* 박스 위아래 간격 설정 */
+.box1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.box3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.box4 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.box5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* sns 설정 */
+.sns {}
+
+.sns ul {
+    display: flex;
+}
+
+.sns ul li {
+    width: 33.3333%;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.sns ul li:nth-child(1) {
+    background-color: #1da1f2;
+}
+
+.sns ul li:nth-child(2) {
+    background-color: #1877f2;
+}
+
+.sns ul li:nth-child(3) {
+    background: linear-gradient(to right, #c13584, #fcaf45);
+}
+
+.sns ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.sns ul li a i {
+    margin-right: 10px;
+}
+
+.sns ul li a span {}
+
+
+/* 관련기사 설정 */
+.relation {
+    background-color: #f0f0d4;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.relation h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #727224;
+    margin-bottom: 5px;
+}
+
+.relation ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.relation ul li {
+    width: 25%;
+}
+
+.relation ul li:hover {
+    text-decoration: underline;
+}
+
+.relation ul li a {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.relation ul li a img {
+    width: 100%;
+}
+
+.relation ul li a .txt {}
+
+
+/* 박스 왼쪽 오른쪽 여백 확보 */
+.box1,
+.box2,
+.boxA,
+.box5 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* 미디어 쿼리 구간 ------------------------------------------------------------------------------*/
+
+/* 599px 이하일 때 설정 */
+@media(max-width:599px) {
+    .menu ul li a {
+        font-size: 11px;
+        padding: 10px 3px;
+    }
+
+    .story h1 {
+        font-size: 26px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .box1 {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .box3 {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .sns ul li a span {
+        display: inline-block;
+        text-indent: -9999px;
+    }
+
+    .sns ul li a i {
+        margin-right: 5px;
+    }
+
+
+    .relation ul li {
+        width: 50%;
+    }
+}
+
+
+/* 600px 이상 767px 이하일 때 설정 */
+@media(min-width:600px) and (max-width:767px) {
+    .box4 {
+        display: flex;
+    }
+
+    .box4-1 {
+        width: 50%;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .box4-2 {
+        width: 50%;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+}
+
+/* 768px 이상일 때 설정 */
+@media(min-width:768px) {
+
+    /* 박스3, 박스4 가로정렬 */
+    .boxA {
+        display: flex;
+    }
+
+    .box3 {
+        width: 70%;
+    }
+
+    .box4 {
+        width: 30%;
+    }
+
+    .boxA {
+        flex-wrap: wrap;
+    }
+
+    .box3 {
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+}
+
+/* 1200px 이상일 때 설정 */
+@media(min-width:1200px) {
+
+    .box1,
+    .boxA,
+    .menu,
+    .copyright {
+        width: 1180px;
+        margin: 0 auto;
+    }
+}
