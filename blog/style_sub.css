@@ -347,6 +347,75 @@ a {
     padding-right: 10px;
 }
 
+/* index 설정 */
+.top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* 써머리 설정 */
+.summary {
+    margin-bottom: 30px;
+}
+
+.summary a {
+    display: block;
+    border: 1px solid #ddd;
+}
+
+.summary a:hover {
+    box-shadow: 0 0 10px #ddd;
+}
+
+.summary a img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    vertical-align: bottom;
+}
+
+.summary a h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.summary a p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.summary a p.more {
+    display: inline-block;
+    background-color: #3077be;
+    color: #fff;
+    padding: 5px;
+}
+
+.boxA>article:nth-child(1) {
+    width: 100%;
+}
+
+
+/* 페이지네이션 설정 */
+.pagenation {}
+
+.pagenation ul {
+    display: flex;
+}
+
+.pagenation ul li {}
+
+.pagenation ul li a {
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
 
 /* 미디어 쿼리 구간 ------------------------------------------------------------------------------*/
 
@@ -410,12 +479,48 @@ a {
     }
 }
 
+/* 600px 이상일때 설정 */
+@media (min-width:600px) {
+
+    /* boxA-1 설정 */
+    .boxA-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .boxA-1 .summary {
+        width: 50%;
+    }
+
+    .boxA-1 .summary:nth-child(odd) {
+        box-sizing: border-box;
+        padding-right: 15px;
+    }
+
+    .boxA-1 .summary:nth-child(even) {
+        box-sizing: border-box;
+        padding-left: 15px;
+    }
+
+    .boxA-1 .summary a {}
+
+    .boxA-1 .summary a img {}
+
+    .boxA-1 .summary a h1 {}
+
+    .boxA-1 .summary a p {}
+
+    .boxA-1 .summary a p.more {}
+}
+
 /* 768px 이상일 때 설정 */
 @media(min-width:768px) {
 
     /* 박스3, 박스4 가로정렬 */
     .boxA {
         display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
     .box3 {
